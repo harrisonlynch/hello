@@ -7,38 +7,29 @@
   "title": "",
   "branch": "master",
   "style": {
-    "name": "Future",
+    "name": "Swiss",
     "componentSet": {
       "nav": "nav/BasicNav",
-      "header": "header/BannerHeader",
-      "article": "article/BasicArticle",
+      "header": "header/SwissHeader",
+      "article": "article/SwissArticle",
       "footer": "footer/BasicFooter"
     },
-    "fontFamily": "\"Avenir Next\", Helvetica, sans-serif",
+    "fontFamily": "\"Helvetica Neue\", Helvetica, Arial, sans-serif",
     "heading": {
-      "fontWeight": 500,
-      "textTransform": "uppercase",
-      "letterSpacing": "0.2em"
-    },
-    "alternativeText": {
-      "textTransform": "uppercase",
-      "fontWeight": 400,
-      "letterSpacing": "0.2em",
-      "opacity": 0.75
-    },
-    "colors": {
-      "text": "#333",
-      "background": "#fff",
-      "primary": "#666",
-      "secondary": "#888",
-      "highlight": "#1f80ff",
-      "muted": "#f6f6f6",
-      "border": "#eee"
+      "fontWeight": 700,
+      "letterSpacing": "-0.01em"
     },
     "layout": {
-      "centered": true,
-      "maxWidth": 1024,
-      "bannerHeight": "80vh"
+      "fluid": true
+    },
+    "colors": {
+      "text": "#000",
+      "background": "#fff",
+      "primary": "#05a",
+      "secondary": "#444",
+      "highlight": "#f30",
+      "border": "#ccc",
+      "muted": "#eee"
     }
   },
   "content": [
@@ -46,15 +37,27 @@
       "component": "nav",
       "links": [
         {
-          "href": "https://github.com/harrisonlynch/hello",
-          "text": "GitHub"
+          "href": "www.harrisonlynch.com",
+          "text": "Home"
+        },
+        {
+          "href": "www.harrisonlynch.com/resume",
+          "text": "Résumé"
+        },
+        {
+          "href": "www.harrisonlynch.com/writing",
+          "text": "Writing"
+        },
+        {
+          "href": "www.harrisonlynch.com/photos",
+          "text": "Photos"
         }
       ]
     },
     {
       "component": "header",
-      "heading": "hello",
-      "subhead": "landing page made with Compositor.io",
+      "heading": "¡Hola!",
+      "subhead": "Este sitio hecho con compositor.io",
       "children": [
         {
           "component": "ui/TweetButton",
@@ -66,7 +69,25 @@
           "user": "harrisonlynch",
           "repo": "hello"
         }
-      ]
+      ],
+      "slug": "(Hello again)",
+      "text": "",
+      "links": [
+        {
+          "href": "www.harrisonlynch.com/resume",
+          "text": "Résumé"
+        },
+        {
+          "href": "www.harrisonlynch.com/writing",
+          "text": "Writing"
+        },
+        {
+          "href": "www.harrisonlynch.com/photos",
+          "text": "Photos"
+        }
+      ],
+      "image": "bg1.jpg",
+      "backgroundImage": "bg1.jpg"
     },
     {
       "component": "article",
@@ -79,14 +100,12 @@
       "component": "footer",
       "links": [
         {
-          "href": "https://github.com/harrisonlynch/hello",
-          "text": "GitHub"
-        },
-        {
           "href": "https://github.com/harrisonlynch",
-          "text": "harrisonlynch"
+          "text": "GitHub"
         }
-      ]
+      ],
+      "image": "",
+      "heading": ""
     }
   ]
 }
