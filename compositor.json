@@ -67,18 +67,6 @@
       "component": "header",
       "heading": "¡Hola!",
       "subhead": "Este sitio hecho con compositor.io",
-      "children": [
-        {
-          "component": "ui/TweetButton",
-          "text": "hello: landing page made with Compositor.io",
-          "url": null
-        },
-        {
-          "component": "ui/GithubButton",
-          "user": "harrisonlynch",
-          "repo": "hello"
-        }
-      ],
       "slug": "(Hello again)",
       "text": "",
       "links": [
